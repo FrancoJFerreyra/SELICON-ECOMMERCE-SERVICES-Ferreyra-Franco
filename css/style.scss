@@ -15,44 +15,44 @@
   flex-direction: column;
   margin: 0rem 2rem 2rem;
 }
-header{
-    background-color: rgb(62, 104, 155);
-    padding: 1rem 1rem;
-    font-size: 1.2rem;
+header {
+  background-color: rgb(62, 104, 155);
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
 }
 .header--title {
-    @include color;
-  }
+  @include color;
+}
 aside {
-    width: 8rem;
-    border-right: solid 0.5px rgb(107, 147, 196);
+  width: 8rem;
+  border-right: solid 0.5px rgb(107, 147, 196);
+  margin: 1rem 0rem;
+  > p {
     margin: 1rem 0rem;
-    > p {
-        margin: 1rem 0rem;
-        color: rgb(110, 141, 180);
-        font-weight: bold;
-      }
+    color: rgb(110, 141, 180);
+    font-weight: bold;
+  }
 }
 .firstFrame {
-    background-color: rgb(172, 197, 223);
-    padding: 0.5rem 1rem 1rem;
-    margin: 1rem 0rem 2rem;
+  background-color: rgb(172, 197, 223);
+  padding: 0.5rem 1rem 1rem;
+  margin: 1rem 0rem 2rem;
 }
 .secondFrame {
-    background-color: rgb(203, 218, 235);
-    padding: 0.5rem 1rem 1rem;
-    margin: 1rem 0rem;
+  background-color: rgb(203, 218, 235);
+  padding: 0.5rem 1rem 1rem;
+  margin: 1rem 0rem;
 }
 .section__h2--title {
-    padding: 0.5rem;
-    border-bottom: solid 2px;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    @include color
+  padding: 0.5rem;
+  border-bottom: solid 2px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  @include color;
 }
 .section--p {
-    color: rgb(62, 104, 155);
-    margin-bottom: 0.5rem;
+  color: rgb(62, 104, 155);
+  margin-bottom: 0.5rem;
 }
 footer {
   display: flex;
@@ -65,11 +65,11 @@ footer {
   font-size: 1.2rem;
   @include color;
 }
-.firstFrame__p--2{
-    display: none;
+.firstFrame__p--2 {
+  display: none;
 }
-.secondFrame__p--3{
-    display: none;
+.secondFrame__p--3 {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
   header {
@@ -92,19 +92,18 @@ footer {
     font-size: 1.2rem;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px){
-      header {
-        font-size: 1.2rem;
-      }
-      .firstFrame {
-        width: 25%;
-        height: 40rem;
-      }
-      .secondFrame {
-        width: 25%;
-        height: 40rem;
-      }
-    
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    font-size: 1.2rem;
+  }
+  .firstFrame {
+    width: 25%;
+    height: 40rem;
+  }
+  .secondFrame {
+    width: 25%;
+    height: 40rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   header {
@@ -120,10 +119,10 @@ footer {
     margin: 1rem 0rem;
   }
 
-  .firstFrame__p--2{
+  .firstFrame__p--2 {
     display: block;
-}
-.secondFrame__p--3{
+  }
+  .secondFrame__p--3 {
     display: block;
-}
+  }
 }
